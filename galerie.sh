@@ -55,7 +55,7 @@ do
 	echo "      <a href=\"./$file_name\" class=\"lightBox\"><img src=\"./thumbnails/thumb.$file_name\" alt=\"\" /></a>" >> "./$html_file_name.html"
 done
 
-#generate the tail of the html file
+#generate the tail of the html file width the rudimentary lightbox
 echo "    </p>
 
 <script>
